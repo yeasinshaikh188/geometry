@@ -3,7 +3,7 @@ function calculatTriangle() {
     const inputBase = getInput('triangle-base');
     const inputHeight = getInput('triangle-height');
     const area = 0.5 * inputBase * inputHeight;
-    const getValue = document.getElementById('va');
+    const getValue = document.getElementById('triangle');
     getValue.innerText = area;
 
    

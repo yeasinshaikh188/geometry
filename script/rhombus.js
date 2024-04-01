@@ -4,6 +4,6 @@ function getRhombusInput(){
     const getRhombusInputValue = rhombusInputBase * rhombusInputHight;
     
 
-    const area = document.getElementById('va');
+    const area = document.getElementById('rhombus');
     area.innerText = getRhombusInputValue;
 }

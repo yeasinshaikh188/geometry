@@ -12,7 +12,7 @@
 </head>
 
 
-<body>
+<body class="p-8">
     <header class="container mx-auto">
         <div class="navbar bg-[#D6EAF8] p-4 lg:p-10">
             <div class="navbar-start">
@@ -49,6 +49,9 @@
                             <input id="triangle-height" class="w-20 ml-4 mr-5 p-2" type="text"
                                 placeholder="h"><span>cm</span>
                         </div>
+                        <div>
+                            <p  class="text-xl"><span>Area:</span><span id="triangle">0</span><span>cm</span></p>
+                        </div>
 
 
                         <button onclick="calculatTriangle()" class="btn w-full btn-primary">Calculate</button>
@@ -57,7 +60,7 @@
                 </div>
 
                 <!-- reacangle -->
-                <div class="card w-[100%] lg:w-[75%] bg-base-100 shadow-xl">
+                <div class="card w-[100%] lg:w-[75%] bg-[#69C7F0] shadow-xl">
                     <figure class="px-10 pt-10">
                         <img src="./images/rectangle.png" alt="">
                     </figure>
@@ -69,13 +72,16 @@
                             <input id="reacangle-i" class="w-20 ml-4 mr-5 p-2" type="text"
                                 placeholder="i"><span>cm</span>
                         </div>
+                        <div>
+                            <p  class="text-xl"><span>Area:</span><span id="reacangle">0</span><span>cm</span></p>
+                        </div>
 
                         <button onclick="reacangleCalculate()" class="btn w-full btn-primary">Calculate</button>
 
                     </div>
                 </div>
                 <!-- Rhombus -->
-                <div class="card w-[100%] lg:w-[75%] bg-base-100 shadow-xl">
+                <div class="card w-[100%] lg:w-[75%] bg-[#FADBD8] shadow-xl">
                     <figure class="px-10 pt-10">
                       <img src="./images/rhombus.png" />
                     </figure>
@@ -86,6 +92,10 @@
                         <input id="Rhombus-base" class="w-20 p-2" type="text" placeholder="w"><span>cm</span>
                         <input id="Rhombus-height" class="w-20 ml-4 mr-5 p-2" type="text"
                             placeholder="i"><span>cm</span>
+                            
+                    </div>
+                    <div>
+                        <p  class="text-xl"><span>Area:</span><span id="rhombus">0</span><span>cm</span></p>
                     </div>
                       
                         <button onclick="getRhombusInput()" class="btn w-full btn-primary">Calculate</button>
@@ -98,10 +108,7 @@
         </section>
         <!-- reactangle -->
         <section>
-
-        </section>
-        <textarea name="" id="va" cols="30" rows="10"></textarea>
-    </main>
+>
     <script src="script/rhombus.js"></script>
     <script src="script/reactangle.js"></script>
     <script src="script/index.js"></script>

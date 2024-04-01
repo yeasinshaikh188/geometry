@@ -3,6 +3,6 @@ function reacangleCalculate (){
       const getinpuI = getInput('reacangle-i');
       const getMainValue = getinpuWidth * getinpuI;
 
-      const area = document.getElementById('va');
+      const area = document.getElementById('reacangle');
       area.innerText = getMainValue;
 }
